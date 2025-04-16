@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Gaming Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 2px solid #2a2a2a;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #00ffcc;
+    }
+
+    header p {
+      font-size: 1.1em;
+      margin-top: 10px;
+      color: #aaa;
+    }
+
+    .socials {
+      margin-top: 20px;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      color: #00ffcc;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: color 0.2s;
+    }
+
+    .socials a:hover {
+      color: #fff;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .store-section {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 30px;
+      margin-bottom: 40px;
+    }
+
+    .store-section h2 {
+      color: #00ffcc;
+      margin-bottom: 20px;
+    }
+
+    .coming-soon {
+      color: #888;
+      font-style: italic;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+      font-size: 0.9em;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Store Name</h1>
+    <p>High-performance gaming PCs & cutting-edge peripherals. Built for players, by a player.</p>
+    <div class="socials">
+      <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a>
+      <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a>
+      <a href="https://tiktok.com/@yourhandle" target="_blank">TikTok</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="store-section">
+      <h2>Featured Builds</h2>
+      <p class="coming-soon">Coming soon — custom rigs with insane power, sleek looks, and top-tier cooling.</p>
+    </div>
+
+    <div class="store-section">
+      <h2>Peripherals</h2>
+      <p class="coming-soon">Monitors, keyboards, mice, and more — carefully curated to give you the edge.</p>
+    </div>
+
+    <div class="store-section">
+      <h2>About Me</h2>
+      <p>I’m [Your Name], a UK-based PC builder with a passion for creating elite setups for gamers and enthusiasts. Every system is built with care, tested to the limit, and designed to dominate.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Your Store Name. All rights reserved.
+  </footer>
+</body>
+</html>
